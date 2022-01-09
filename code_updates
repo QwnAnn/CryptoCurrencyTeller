@@ -1,0 +1,556 @@
+home1.html<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Analysis</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{% url 'home' %}">CryptoCurrencyTeller</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'home' %}">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Project</a>
+            </li>
+            
+          </ul>
+       
+      </nav>
+    
+    <br>
+    
+    <img src="{% static 'plot1.png' %}" alt=""  height="600" width="1000" style="float : left">
+   <div class="jumbotron">
+    <br>
+    
+    
+      <h1 class="lead">Bitcoin today is expected to peak at:</h1>
+      
+      <h1 class="display-10"> $ {{data}}</h1>  </div>
+    <br>
+    <br><br><br>
+   
+    
+    <br>
+    <h1 class="display-6">Do you want to buy Bitcoin today?</h1>
+    <br> <br><br>
+   
+    <br><a class="btn btn-outline-success btn-lg" href="{% url 'Avalanche' %}" role="button" style="float : left; margin-right:15px;">Place Order</a>
+    <a class="btn btn-outline-danger btn-lg" href="{% url 'Avalanche' %}" role="button">Not today, just update Databases</a>
+  
+    <br> <br>
+    <br><br>
+    <br>
+ 
+    <br>
+    <br>
+    <br>
+    <hr class="my-4">
+    
+     
+       
+    
+      
+   
+    </div>
+    
+    
+    
+      
+</body>
+</html>
+
+
+
+home2.html<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Analysis</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="{% url 'home' %}">CryptoCurrencyTeller</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'home' %}">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Project</a>
+        </li>
+        
+      </ul>
+   
+  </nav>
+
+<br>
+
+<img src="{% static 'plot2.png' %}" alt=""  height="600" width="1000" style="float : left">
+<div class="jumbotron">
+<br>
+
+
+  <h1 class="lead">Ethereum today is expected to peak at:</h1>
+  
+  <h1 class="display-10"> $ {{data}}</h1>  </div>
+<br>
+<br><br><br>
+
+
+<br>
+<h1 class="display-6">Do you want to buy Ethereum today?</h1>
+<br> <br><br>
+
+<br><a class="btn btn-outline-success btn-lg" href="{% url 'Avalanche' %}" role="button" style="float : left; margin-right:15px;">Place Order</a>
+<a class="btn btn-outline-danger btn-lg" href="{% url 'Avalanche' %}" role="button">Not today, just update Databases</a>
+<br> <br>
+<br><br>
+<br>
+
+<br>
+<br>
+<br>
+<hr class="my-4">
+
+ 
+   
+
+  
+
+</div>
+    
+</body>
+</html>
+
+
+home3.html<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ripple Analysis</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="{% url 'home' %}">CryptoCurrencyTeller</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'home' %}">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Project</a>
+        </li>
+        
+      </ul>
+   
+  </nav>
+
+<br>
+
+<img src="{% static 'plot3.png' %}" alt=""  height="600" width="1000" style="float : left">
+<div class="jumbotron">
+<br>
+
+
+  <h1 class="lead">Ripple today is expected to peak at:</h1>
+  
+  <h1 class="display-10"> $ {{data}}</h1>  </div>
+<br>
+<br><br><br>
+
+
+<br>
+<h1 class="display-6">Do you want to buy Ripple today?</h1>
+<br> <br><br>
+
+<br><a class="btn btn-outline-success btn-lg" href="{% url 'Avalanche' %}" role="button" style="float : left; margin-right:15px;">Place Order</a>
+<a class="btn btn-outline-danger btn-lg" href="{% url 'Avalanche' %}" role="button">Not today, just update Databases</a>
+<br> <br>
+<br><br>
+<br>
+
+<br>
+<br>
+<br>
+<hr class="my-4">
+
+ 
+   
+
+  
+
+</div>
+    
+</body>
+</html>
+
+home4.html<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalanche Analysis</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="{% url 'home' %}">CryptoCurrencyTeller</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'home' %}">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Project</a>
+        </li>
+        
+      </ul>
+   
+  </nav>
+
+<br>
+
+<img src="{% static 'plot4.png' %}" alt=""  height="600" width="1000" style="float : left">
+<div class="jumbotron">
+<br>
+
+
+  <h1 class="lead">Avalanche today is expected to peak at:</h1>
+  
+  <h1 class="display-10"> $ {{data}}</h1>  </div>
+<br>
+<br><br><br>
+
+
+<br>
+<h1 class="display-6">Do you want to buy Avalanche today?</h1>
+<br> <br><br>
+
+<br><a class="btn btn-outline-success btn-lg" href="{% url 'Avalanche' %}" role="button" style="float : left; margin-right:15px;">Place Order</a>
+<a class="btn btn-outline-danger btn-lg" href="{% url 'Avalanche' %}" role="button">Not today, just update Databases</a>
+<br> <br>
+<br><br>
+<br>
+
+<br>
+<br>
+<br>
+<hr class="my-4">
+
+ 
+   
+
+  
+
+</div>
+</body>
+</html>
+
+home5.html<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogecoin Analysis</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="{% url 'home' %}">CryptoCurrencyTeller</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'home' %}">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Project</a>
+        </li>
+        
+      </ul>
+   
+  </nav>
+
+<br>
+
+<img src="{% static 'plot5.png' %}" alt=""  height="600" width="1000" style="float : left">
+<div class="jumbotron">
+<br>
+
+
+  <h1 class="lead">Dogecoin today is expected to peak at:</h1>
+  
+  <h1 class="display-10"> $ {{data}}</h1>  </div>
+<br>
+<br><br><br>
+
+
+<br>
+<h1 class="display-6">Do you want to buy Dogecoin today?</h1>
+<br> <br><br>
+
+<br><a class="btn btn-outline-success btn-lg" href="{% url 'Avalanche' %}" role="button" style="float : left; margin-right:15px;">Place Order</a>
+<a class="btn btn-outline-danger btn-lg" href="{% url 'Avalanche' %}" role="button">Not today, just update Databases</a>
+<br> <br>
+<br><br>
+<br>
+
+<br>
+<br>
+<br>
+<hr class="my-4">
+
+ 
+   
+
+  
+
+</div>
+</body>
+</html>
+
+hp1>>views.py>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+from django.shortcuts import render
+import sqlalchemy
+import sqlite3
+import pandas
+from sklearn import linear_model
+import os
+import numpy
+
+from matplotlib import pyplot
+# Create your views here.
+def Bitcoin(request):
+    os.chdir(r'C:\Users\mohan\Desktop')
+    engine=sqlalchemy.create_engine('sqlite:///crypto.db')
+    btc=pandas.read_sql('coin_Bitcoin',engine)
+    btc=pandas.DataFrame({'Symbol':'BTC','High':btc['High'],'Low':btc['Low'],'Open':btc['Open'],'Volume':btc['Volume'],'Marketcap':btc['Marketcap']})
+    btc.to_sql('coin_Bitcoin',engine,if_exists='replace',index=False)
+    reg=linear_model.LinearRegression()
+    reg.fit(btc[['Low', 'Open', 'Volume', 'Marketcap']],btc.High)
+    k2=[45819,47169,27324747388,904750102976]
+    data=float(reg.predict([[45819,47169,27324747388,904750102976]]))
+    
+
+    pyplot.plot(range(1,11),list(btc.tail(10)['High'].to_numpy()),label="Bitcoin's performance",marker='o',markerfacecolor='blue')
+    pyplot.title("Bitcoin's performance over last 10 days:")
+    pyplot.ylabel('Price ($)')
+    pyplot.xlabel('Days')
+    pyplot.grid(True,linewidth=1,linestyle='-.')
+    pyplot.legend(loc='upper right')
+    pyplot.savefig(r'C:\Users\mohan\Desktop\CryptoCurrencyTeller\CryptoCurrencyTeller\static\plot1.png',dpi=500)
+      
+    pyplot.close()
+
+    return render(request,'home1.html',{'data':data})
+
+hp2>>views.py>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+from django.shortcuts import render
+import sqlite3
+import os
+import pandas
+import sqlalchemy
+from sklearn import linear_model
+from selenium import webdriver
+from time import sleep
+
+
+
+# Create your views here.
+def Ethereum(request):
+    os.chdir(r'C:\Users\mohan\Desktop')
+    engine = sqlalchemy.create_engine('sqlite:///crypto.db')
+    eth=pandas.read_sql('coin_Ethereum',engine)
+    eth=pandas.DataFrame({'Symbol':'ETH','High':eth['High'],'Low':eth['Low'],'Open':eth['Open'],'Volume':eth['Volume'],'Marketcap':eth['Marketcap']})
+    eth.to_sql('coin_Ethereum',engine,if_exists='replace',index=False)
+    
+    reg2 = linear_model.LinearRegression()
+    reg2= reg2.fit(eth[['Low', 'Open', 'Volume', 'Marketcap']],eth.High)
+    k2=[45819,47169,27324747388,904750102976]
+    data=float(reg2.predict([k2]))
+
+    from matplotlib import pyplot
+    pyplot.plot(range(1,11),list(eth.tail(10)['High'].to_numpy()),label="Ethereum's performance",marker='o',markerfacecolor='blue')
+    pyplot.title("Ethereum's performance over last 10 days:")
+    pyplot.ylabel('Price ($)')
+    pyplot.xlabel('Days')
+    pyplot.grid(True,linewidth=1,linestyle='-.')
+    pyplot.legend(loc='upper right')
+    pyplot.savefig(r'C:\Users\mohan\Desktop\CryptoCurrencyTeller\CryptoCurrencyTeller\static\plot2.png',dpi=500)
+    pyplot.close()
+    return render(request,'home2.html',{'data':data})
+    
+hp3>>views.py>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+from django.shortcuts import render
+import sqlite3
+import os
+import pandas
+import sqlalchemy
+from sklearn import linear_model
+from selenium import webdriver
+from time import sleep
+
+from matplotlib import pyplot
+import io
+import urllib,base64
+
+# Create your views here.
+def Ripple(request):
+    os.chdir(r'C:\Users\mohan\Desktop')
+    engine = sqlalchemy.create_engine('sqlite:///crypto.db')
+    xrp=pandas.read_sql('coin_XRP',engine)
+    xrp=pandas.DataFrame({'Symbol':'XRP','High':xrp['High'],'Low':xrp['Low'],'Open':xrp['Open'],'Volume':xrp['Volume'],'Marketcap':xrp['Marketcap']})
+    xrp.to_sql('coin_XRP',engine,if_exists='replace',index=False)
+    
+    reg3 = linear_model.LinearRegression()
+    reg3= reg3.fit(xrp[['Low', 'Open', 'Volume', 'Marketcap']],xrp.High)
+    k=[45819,47169,27324747388,904750102976]
+    data=float(reg3.predict([[45819,47169,27324747388,904750102976]]))
+
+    from matplotlib import pyplot
+    pyplot.plot(range(1,11),list(xrp.tail(10)['High'].to_numpy()),label="Ripple's performance",marker='o',markerfacecolor='blue')
+    pyplot.title("Ripple's performance over last 10 days:")
+    pyplot.ylabel('Price ($)')
+    pyplot.xlabel('Days')
+    pyplot.grid(True,linewidth=1,linestyle='-.')
+    pyplot.legend(loc='upper right')
+    pyplot.savefig(r'C:\Users\mohan\Desktop\CryptoCurrencyTeller\CryptoCurrencyTeller\static\plot3.png',dpi=500)
+    pyplot.close()
+
+    return render(request,'home3.html',{'data':data})
+
+
+hp4>>views.py>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+from django.shortcuts import render
+
+# Create your views here.
+from django.shortcuts import render
+import sqlite3
+import os
+import pandas
+import sqlalchemy
+from sklearn import linear_model
+from selenium import webdriver
+from time import sleep
+
+from matplotlib import pyplot
+import io
+import urllib,base64
+# Create your views here.
+def Avalanche(request):
+    os.chdir(r'C:\Users\mohan\Desktop')
+    engine = sqlalchemy.create_engine('sqlite:///crypto.db')
+    aave=pandas.read_sql('coin_Aave',engine)
+    aave=pandas.DataFrame({'Symbol':'AAVE','High':aave['High'],'Low':aave['Low'],'Open':aave['Open'],'Volume':aave['Volume'],'Marketcap':aave['Marketcap']})
+    aave.to_sql('coin_Aave',engine,if_exists='replace',index=False)
+    
+    reg4 = linear_model.LinearRegression()
+    reg4= reg4.fit(aave[['Low', 'Open', 'Volume', 'Marketcap']],aave.High)
+    k4=[45819,47169,27324747388,904750102976]
+    data=float(reg4.predict([[45819,47169,27324747388,904750102976]]))
+      
+    from matplotlib import pyplot
+    pyplot.plot(range(1,11),list(aave.tail(10)['High'].to_numpy()),label="Avalanche's performance",marker='o',markerfacecolor='blue')
+    pyplot.title("Avalanche's performance over last 10 days:")
+    pyplot.ylabel('Price ($)')
+    pyplot.xlabel('Days')
+    pyplot.grid(True,linewidth=1,linestyle='-.')
+    pyplot.legend(loc='upper right')
+    pyplot.savefig(r'C:\Users\mohan\Desktop\CryptoCurrencyTeller\CryptoCurrencyTeller\static\plot4.png',dpi=500)
+    pyplot.close()
+    return render(request,'home4.html',{'data':data})
+    
+ hp5>>views.py>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 
+ from django.shortcuts import render
+import sqlite3
+import os
+import pandas
+import sqlalchemy
+from sklearn import linear_model
+from selenium import webdriver
+from time import sleep
+
+from matplotlib import pyplot
+import io
+import urllib,base64
+# Create your views here.
+def Dogecoin(request):
+    os.chdir(r'C:\Users\mohan\Desktop')
+    engine = sqlalchemy.create_engine('sqlite:///crypto.db')
+    doge=pandas.read_sql('coin_Dogecoin',engine)
+    doge=pandas.DataFrame({'Symbol':'DOGE','High':doge['High'],'Low':doge['Low'],'Open':doge['Open'],'Volume':doge['Volume'],'Marketcap':doge['Marketcap']})
+    doge.to_sql('coin_Dogecoin',engine,if_exists='replace',index=False)
+    
+    reg5=linear_model.LinearRegression()
+    reg5.fit(doge[['Low', 'Open', 'Volume', 'Marketcap']],doge.High)
+    k5=[45819,47169,27324747388,904750102976]
+    data=float(reg5.predict([k5]))
+      
+    from matplotlib import pyplot
+    pyplot.plot(range(1,11),list(doge.tail(10)['High'].to_numpy()),label="Dogecoin's performance",marker='o',markerfacecolor='blue')
+    pyplot.title("Dogecoin's performance over last 10 days:")
+    pyplot.ylabel('Price ($)')
+    pyplot.xlabel('Days')
+    pyplot.grid(True,linewidth=1,linestyle='-.')
+    pyplot.legend(loc='upper right')
+    pyplot.savefig(r'C:\Users\mohan\Desktop\CryptoCurrencyTeller\CryptoCurrencyTeller\static\plot5.png',dpi=500)
+    
+    pyplot.close()
+    return render(request,'home5.html',{'data':data})
+   
